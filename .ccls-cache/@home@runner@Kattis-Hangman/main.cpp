@@ -1,3 +1,6 @@
+// Samuel Peel
+//CSCI 130
+// 10-31-22
 #include <iostream>
 #include <cstring>
 #include <string>
