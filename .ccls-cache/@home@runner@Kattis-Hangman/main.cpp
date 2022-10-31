@@ -24,7 +24,7 @@ int main() {
     while(j <= 25){
     if (word[i] == guess[j+1])
       cout << "LOSE" << endl;
-      return 39;
+      return 0;
       //cout << word[i] << " " << guess [j] << endl;
     if(word[i] == guess[j]){
       win++;
