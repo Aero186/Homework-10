@@ -15,6 +15,28 @@ struct chart {
 
 int main() {
   
+  int list[5][3] = {{25, 1450, 62}, {36, 3240, 136}, {44, 1792, 76}, {52, 2360, 105}, {68, 2114, 67}};
+  chart c;
+  
+  for (int i = 0; i < 5; i++){
+    for (int j = 0; j == 0; j++){
+       c.carNumber = list[i][j];
+      cout << c.carNumber << endl; 
+    }
+  }
+  for (int i = 0; i < 5; i++){
+    for (int j = 1; j == 1; j++){
+       c.milesDriven = list[i][j];
+      cout << c.milesDriven << endl; 
+    }
+  }
+  for (int i = 0; i < 5; i++){
+    for (int j = 2; j == 2; j++){
+       c.gallonsUsed = list[i][j];
+      cout << c.gallonsUsed<< endl; 
+    }
+  }
+  
   struct chart arr[5]; 
 
 }
